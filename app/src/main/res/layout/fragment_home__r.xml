@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="34dp"
+        android:text="Logged In" />
+
+    <TextView
+        android:id="@+id/received_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="72dp"
+        android:textAlignment="center"
+        android:textSize="50px"
+        />
+
+    <TextView
+        android:id="@+id/received_email"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="133dp"
+        android:textAlignment="center"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/received_password"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="197dp"
+        android:textAlignment="center"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/APICALL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="281dp"
+        android:text="APICALL" />
+
+
+    <Button
+        android:id="@+id/maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="358dp"
+        android:text="Maps" />
+
+</RelativeLayout>
